@@ -37,8 +37,9 @@ INSTALLED_APPS = [
     'django.contrib.sessions',
     'django.contrib.messages',
     'django.contrib.staticfiles',
-    'apps.cbv',
-    'apps.fbv',
+    'apps.cbv',     #class based views using APIView
+    'apps.fbv',     #function based views using @api_view decorators
+    'apps.cbvusingquery'        #class based views using APIView and raw queries
 ]
 
 MIDDLEWARE = [

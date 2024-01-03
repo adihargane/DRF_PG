@@ -21,4 +21,5 @@ urlpatterns = [
     path('admin/', admin.site.urls),
     url(r'^api/', include('apps.fbv.urls')),
     url(r'^api/', include('apps.cbv.urls')),
+    url(r'^api/', include('apps.cbvusingquery.urls')),
 ]
